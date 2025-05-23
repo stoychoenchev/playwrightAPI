@@ -9,10 +9,10 @@ pipeline {
         }
 
         stage('Clean') {
-    steps {
-        bat 'rmdir /s /q playwright-report'
-        bat 'rmdir /s /q test-results'
-    }
+            steps {
+                bat 'rmdir /s /q playwright-report'
+                bat 'rmdir /s /q test-results'
+            }
         }
 
         stage('Install dependencies') {
@@ -27,10 +27,6 @@ pipeline {
                 bat 'npx playwright test'
             }
         }
-        
-        
-}
-
     }
 
     post {
