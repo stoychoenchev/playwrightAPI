@@ -1,0 +1,46 @@
+[
+  {
+    "firstname": "Ivan",
+    "lastname": "Petkov",
+    "totalprice": 120,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-10"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  {
+    "firstname": "Alisia",
+    "lastname": "Marinova",
+    "totalprice": 250,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-02-01",
+      "checkout": "2025-02-15"
+    },
+    "additionalneeds": "Late checkout"
+  },
+  {
+    "firstname": "Blagovest",
+    "lastname": "Marinov",
+    "totalprice": 500,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-02-01",
+      "checkout": "2025-02-15"
+    },
+    "additionalneeds": "Pet friendly room"
+  },
+  {
+    "firstname": "Maria",
+    "lastname": "Dimitrova",
+    "totalprice": 400,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-02-01",
+      "checkout": "2025-02-15"
+    },
+    "additionalneeds": "baby crib"
+  }
+]
